@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sleep 5
+
+tmux attach-session -t guake || tmux new-session -s guake
+
